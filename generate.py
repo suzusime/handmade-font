@@ -67,7 +67,7 @@ glyphcount = len(glyphorder)#既存のグリフ数
 
 ##gsubが無い場合は考えないことにする
 gsub = root.find('GSUB')
-dfltlang = gsub.find('ScriptList/ScriptRecord/ScriptTag[@value=\'DFLT\']').getparent().find('Script/DefaultLangSys')
+dfltlang = gsub.find('ScriptList/ScriptRecord/ScriptTag[@value=\'latn\']').getparent().find('Script/DefaultLangSys')
 langfcount = 0 # DFLTの中から参照するFeatureの数
 for c in dfltlang:
     if c.tag == 'FeatureIndex':
