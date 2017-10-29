@@ -21,4 +21,4 @@ If you add `nyan.svg` to the font, you can display the glyph when you type `:nya
 ## LISENSE
 `source.otf` (Adobe Source Code Pro) is lisensed under SIL OPEN FONT LICENSE Version 1.1.
 
-The other files are lisensed under MIT Lisence.
+Other files are lisensed under MIT Lisence.
