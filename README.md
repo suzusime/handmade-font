@@ -1,7 +1,7 @@
 This is a script to add svg color glyphs to a font.
 
 ## Requirement
-- ttx
+- ttx (in AFDKO)
   - Install from [Adobe site](http://www.adobe.com/devnet/opentype/afdko.html).
 - lxml
   - `$ pip install lxml`
@@ -20,4 +20,5 @@ If you add `nyan.svg` to the font, you can display the glyph when you type `:nya
 
 ## LISENSE
 `source.otf` (Adobe Source Code Pro) is lisensed under SIL OPEN FONT LICENSE Version 1.1.
+
 The other files are lisensed under MIT Lisence.
